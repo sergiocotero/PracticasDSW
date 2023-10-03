@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+header{
+    border: solid 1px grey;
+    background-color: greenyellow;
+    padding-bottom: 50px;
+    margin-bottom: 1%
+
+}
+
+nav{
+    border: solid 1px grey;
+    background-color: greenyellow;
+    padding-bottom: 50px;
+    margin-bottom: 1%
+
+}
+
+article{
+    display: flex;
+    border: solid 1px gray;
+    height: 650px;
+}
+
+#aside1{
+    float: left;
+    border: solid 1px grey;
+    background-color: cornflowerblue;
+    margin: 15px;
+    width: 15%;
+
+}
+
+section{
+    border: solid 1px grey;
+    background-color: yellow;
+    margin: 15px;
+    width: 100%;
+}
+
+#aside2{
+    float: right;
+    border: solid 1px grey;
+    background-color: cornflowerblue;
+    margin: 15px;
+    width: 15%;
+}
+
+footer{
+    border: solid 1px grey;
+    background-color: violet;
+    padding-bottom: 50px;
+    margin-bottom: 1%
+}
+
