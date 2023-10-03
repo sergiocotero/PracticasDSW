@@ -1,0 +1,49 @@
+/*Aquí tenemos los estílos del proyecto Practica18.html*/
+
+
+    /*Le quito el paddimg y margin a la página*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*En este div le estíliso a todos los div sin descriminar*/
+div{
+    border: solid 1px gray;
+    border-radius: 5px;
+    background-color: greenyellow;
+    margin: 15px;
+}
+
+/*En esta etiqueta estiliso a los que son de diferente color y caracteristicas a los demás div con otro color, y tamaño a los demás div*/
+.comun{
+    background-color: lemonchiffon;
+    margin: 15px;
+    height: 100px;
+}
+
+/*Creo margen encima del div "nav" para que haya espacio*/
+#nav{
+    margin-top: 50px;
+}
+
+/*En section acomodo su ubicación a la derecha y su tamaño*/
+#section{
+    float: right;
+    width: 45%;
+    height: 500px;
+}
+
+/*En aside acomodo su ubicación a la izquierda y su tamaño*/
+#aside{
+    float: left;
+    height: 500px;
+    width: 45%;
+}
+
+/*Pongo su tamaño y acomodo su ubicación dentro de la página*/
+#footer{
+    margin-top: 550px;
+    height: 100px;
+}
+
