@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 11</title>
+
+    <style>
+        input{
+            border-radius: 15px;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+
+        #boton{
+            background-color: lemonchiffon;
+            width: 10%;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <form action="" method="GET">
+        <div align="center">
+            <h1>FORMULARIO DE REGISTRO - MI PRIMER FORMULARIO</h1>
+            Nombre: <input name="nombreUsuario" type="text" placeholder="Escribe tu nombre" autofocus required maxlength="50" />
+            <br>
+            Apellido: <input name="apellidoUsuario" type="text" placeholder="Escribe tu apellido" required maxlength="50" />
+            <br>
+            Sexo: <select>
+                        <option value="sexoMasculino">Hombre</option>
+                        <option value="sexoFemenino">Mujer</option>
+                    </select>
+            <br>
+            <br>
+            Correo: <input type="email" name="correUsuario" required placeholder="Debes escribir tu correo electronico" />
+            <br>
+            <input type="checkbox" name="acuerdo" checked/>Deseo recibir información sobre novedades y ofertas
+            <br>
+            <input type="checkbox" name="acuerdo" required/>Declaro haber leído y aceptar las condiciones generales del programa y a normativa sobre protección de datos
+            <br>
+            <br>
+            <br>
+            <input id="boton" type="submit" value="Enviar" />
+            
+        </div>
+    </form>
+
+    
+</body>
+<!--Sergio Eduardo Cotero Torres - 372-->
+</html>
