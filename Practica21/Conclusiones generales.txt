@@ -1,0 +1,4 @@
+Las tres páginas estan igual en la estrctura HTML, sin embargo se nota su diferencia en la sección de estilos CSS.
+En la fija utiliza medidas comunes de tipo pixel.
+En la página Liquida se utilizan medidas en porcentaje y en el contenedor se deja vacio para que el navegador lo identifique como "automatico" la anchura.
+La Elastica, las medidas que se usaron fueron relativas a la letra, osea tipo "em". Lo que se logra es tener una medida no muy exacta para los elementos y que se puedan reajustar.
