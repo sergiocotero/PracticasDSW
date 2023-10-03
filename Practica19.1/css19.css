@@ -1,0 +1,85 @@
+/*Unidades de medida relativa*/
+#em{
+    font-size: 2em;
+}
+
+#ex{
+    font-size: 2ex;
+}
+
+#rem{
+    font-size: 2rem;
+}
+
+#vw{
+    font-size: 2vw;
+}
+
+#vh{
+    font-size: 2vh;
+}
+
+#vmin{
+    font-size: 2vmin;
+}
+
+#vmax{
+    font-size: 2vmax;
+}
+
+/*<!--Pseudo-clases-->*/
+
+ul li:nth-child(3) { /*Cuenta desde arriba*/
+    background-color: yellow;
+    color: grey;
+}
+
+ul li:nth-last-child(2){ /*Empieza desde abajo y cuenta hacia arriba*/
+    background: rgb(70%, 95%, 18%);
+}
+
+ul li:empty{ /*Seleccionara a los elementos que se encuentren vacíos y los ponddra gris*/
+    background: lightgrey;
+}
+
+li:first-child{
+    background: rgb(70%, 95%, 88%);
+}
+
+li:last-child{
+    background: rgb(70%, 55%, 88%);
+}
+
+li:nth-of-type(2){
+    background: rgb(60%, 5%, 88%);
+}
+
+li:nth-last-of-type(4){
+    background: rgb(20%, 33%, 40%);
+}
+
+a:link {
+    color: red; /* Cambia el color del enlace a azul */
+    text-decoration: none; /* Subraya el enlace desactivado */
+}
+
+a:visited{
+    color: rgb(251, 152, 26);
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgba(12, 64, 235, 0.507);
+  }
+
+li:active{
+    color: rgb(233, 76, 89);
+}
+
+input:focus {
+    background-color: #6d6a6a;
+  }
+
+li:lang(en){ /*Recordar que puede leer el lang del principio antes que el de mi etiqueta, por lo que puede cambiar a toda la página*/
+    background-color: #2ca03c;
+}
