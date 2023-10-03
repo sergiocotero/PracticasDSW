@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 15</title>
+</head>
+<body>
+
+    <form action="" method="get">
+        <table>
+            <thead> 
+                <tr>
+                  <th colspan="4"> <h1> <font color="blue"> Formulario de registro</font> </h1> </th>
+                </tr>
+               </thead>
+
+               <tbody>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type="text" name="nombreUsuario" required placeholder="Coloca tu nombre"></td>
+                        <td> Correo:</td>
+                        <td><input type="email" required placeholder="Coloca tu correo" name="correo"></td>
+                    </tr>
+                    <tr>
+                        <td>Url:</td>
+                        <td><input type="url" required placeholder="Coloque un enlace url" name="enlaceUrl"></td>
+                        <td>Fecha:</td>
+                        <td><input type="date" name="fecha" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tiempo:</td>
+                        <td><input type="time" name="tiempo"></td>
+                        <td>Fecha yhora de nacimiento:</td>
+                        <td><input type="datetime"></td>
+                    </tr>
+                    <tr>
+                        <td>Mes de nacimiento:</td>
+                        <td><input type="month" name="mesNacimiento"></td>
+                        <td>Semana:</td>
+                        <td><input type="week" name="semanaNacimiento"></td>
+                    </tr>
+                    <tr>
+                        <td>Edad:</td>
+                        <td><input type="number" name="edad" required pattern="\S{10, 100}"></td>
+                        <td>Horas de internet:</td>
+                        <td><input type="range" name="rangoTiempo" min="5" max="100" step="10" ></td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono:</td>
+                        <td><input type="tel" name="telefono" requiered></td>
+                        <td>Palabra de búsqueda:</td>
+                        <td><input type="search" placeholder="Palabra de búsqueda" required></td>
+                    </tr>
+               </tbody>
+               
+               <tfoot>
+                <tr>
+                    <td>Color favorito:</td>
+                    <td><input type="color"></td>
+                    <td></td>
+                    <td><input type="submit"name="botonEnviar" value="Enviar"></td>
+                </tr>
+               </tfoot>
+        </table>
+    </form>
+    
+</body>
+<!--Sergio Eduardo Cotero Torres - 372-->
+</html>
