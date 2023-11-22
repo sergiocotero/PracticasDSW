@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 31</title>
+    <style>
+        table {
+            border: none;
+        }
+
+        #enviar{
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #6a87e7;
+            border: none;
+            color: #f7f5f5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border>
+        <tr>
+            <th>Español</th>
+            <td><input id="espanol" name="espanol" type="number" placeholder="Escribe calificación" autofocus></input></td>
+            <th>Biologia</th>
+            <td><input id="biologia" name="biologia" type="number" placeholder="Escribe calificación"></input></td>
+        </tr>
+        <tr>
+            <th>Programación</th>
+            <td><input id="programacion" name="programacion" type="number" placeholder="Escribe calificación"></input></td>
+            <th>Diseño de sitios web</th>
+            <td><input id="sitiosWeb" name="web" type="number" placeholder="Escribe calificación"></input></td>
+        </tr>
+        <tr>
+            <th>Base de datos</th>
+            <td><input id="baseDatos" name="baseDatos" type="number" placeholder="Escribe calificación"></input></td>
+            <th>Ciberseguridad</th>
+            <td><input id="ciberseguridad" name="ciberseguridad" type="number" placeholder="Escribe calificación"></input></td>
+        </tr>
+        <tr>
+            <th>Administración de equipo</th>
+            <td><input id="equipo" name="equipo" type="number" placeholder="Escribe calificación"></input></td>
+            <th>Extracción de datos</th>
+            <td><input name="extraccion" id="extraccion" type="number" placeholder="Escribe calificación"></input></td>
+        </tr>
+    </table>
+
+    <input type="submit" name="enviar" value="Enviar" onclick="verificar()"></input>
+
+    <!-- <form>
+        <input type="text" id="nombre" script="30" autofocus>
+    </form>
+    <br>
+    <button type="button" onclick="imprimir()">Imprimir</button>
+    
+    <script>
+        function imprimir(){
+            var nombre = document.getElementById("nombre").value;
+            alert(nombre);
+        }
+    </script>
+    -->
+
+    <script src="Practica31.js"></script>
+
+</body>
+
+</html>
