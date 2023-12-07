@@ -1,0 +1,127 @@
+main {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilizamos flexbox para alinear los elementos en la misma línea */
+    align-items: stretch; /* Hacemos que ambos elementos tengan la misma altura */
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+section {
+    width: 65%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5.3);
+    transition: transform 0.3s;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+article {
+    margin: 0% 0% 15% 5%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+article:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+aside {
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    right: 0;
+}
+
+aside article {
+    margin-bottom: 20px;
+    border: solid 1px rgb(44, 44, 44);
+    border-radius: 10px;
+    padding: 10px;;
+}
+
+#contenedor{
+    background-image: url("https://fundacionio.com/wp-content/uploads/2020/10/Laos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 33em;
+}
+
+#yo{
+    width: 120px;
+    height: 150px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.comida{
+    width: 100%;
+    height: 150px;
+}
+
+#intro{
+    width: 100%;
+    padding: 5%;
+}
+
+p{
+    padding: 5%;
+    padding-top: 0;
+}
+
+#contenido-Platillos-Muestra{
+    display: flex;
+}
+
+.platillo{
+    border: solid 2px;
+    border-radius: 50px;
+    transition: transform 0.5s;
+    width: 25%;
+    text-align: center;
+    padding: 5%;
+    margin: 2%;
+}
+
+.platillo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.islas{
+    border-radius: 5px;
+    width: 100%;
+    height: 15%;
+}
+
+#carousel-container {
+    height: 210px;
+    overflow: hidden;
+}
+
+#carousel {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    width: 100%;
+    box-sizing: border-box;
+    height: 80%;
+}

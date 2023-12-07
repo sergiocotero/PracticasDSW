@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://media.gq.com.mx/photos/620e915c43f71a078a35533f/16:9/w_1600,c_limit/playa.jpg');
+    background-size: cover;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    background-attachment: fixed;
+}
+
+#formularioDiv {
+    background-color: rgba(29, 28, 28, 0.7); /* Fondo transparente (ajusta el último valor para cambiar la opacidad) */
+    padding: 20px;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 239, 239, 0.3); /* Sombra para resaltar el formulario */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #a3a1a1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea{
+    resize: none;
+    border: solid 1px grey;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+input, select{
+    border: solid 1px rgb(49, 49, 49);
+    background-color: grey;
+    border-radius: 5px;
+    padding: 6px;
+    width: 35%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#enviar {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+#enviar:hover {
+    background-color: #439e48;
+}
